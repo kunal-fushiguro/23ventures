@@ -19,7 +19,7 @@ const data = [
 
 export const ProgressScroll = () => {
   const divRef = useRef(null);
-  const isInView = useInView(divRef, { once: true });
+
   return (
     <>
       <div

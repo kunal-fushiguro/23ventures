@@ -51,7 +51,10 @@ const OffersBoxs = () => {
 interface BoxesProps {
   title: string;
   description: string;
-  keyPoints: any[];
+  keyPoints: {
+    key: string;
+    point: string;
+  }[];
 }
 
 const Boxes = ({ description, keyPoints, title }: BoxesProps) => {
