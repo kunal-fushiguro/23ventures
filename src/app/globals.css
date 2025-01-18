@@ -54,3 +54,7 @@ body {
 .text-color {
   color: #499478;
 }
+
+video::-webkit-media-controls {
+  display: none;
+}
