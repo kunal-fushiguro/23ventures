@@ -15,6 +15,7 @@ export default function Home() {
           autoPlay
           loop
           muted
+          controls={false}
           className="absolute inset-0 w-full h-full object-cover z-[-1] blur-[1px]"
         ></video>
 

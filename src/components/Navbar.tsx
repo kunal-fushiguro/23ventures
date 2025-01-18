@@ -44,10 +44,12 @@ const Navbar = () => {
               );
             })}
           </span>
-          <Button
-            onClickUrl="https://docs.google.com/forms/d/1_uPNNuA10z2IBRlKzUHAmQwjoyDEjpCYHDt_t-IWKzQ/edit"
-            text="Apply"
-          />
+          <div className="md:block hidden">
+            <Button
+              onClickUrl="https://docs.google.com/forms/d/1_uPNNuA10z2IBRlKzUHAmQwjoyDEjpCYHDt_t-IWKzQ/edit"
+              text="Apply"
+            />
+          </div>
 
           <span
             className={`md:hidden rounded-3xl flex justify-center items-center font-bold text-xl  `}
@@ -73,6 +75,9 @@ const Navbar = () => {
                 href={link}
                 key={index}
                 className="text-2xl w-full h-auto font-bold text-center"
+                onClick={() => {
+                  setOpen(false);
+                }}
               >
                 {text}
               </Link>

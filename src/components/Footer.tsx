@@ -5,7 +5,7 @@ const socialMediaLinks = [
   {
     text: "instagram",
     icons: FaInstagram,
-    link: "/",
+    link: "https://www.instagram.com/23ventures.inc?igsh=MWNpNTg3aG12bHZjcQ%3D%3D",
   },
   {
     text: "linkedin",
@@ -15,7 +15,7 @@ const socialMediaLinks = [
   {
     text: "twitter",
     icons: FaXTwitter,
-    link: "/",
+    link: "https://x.com/23VenturesInc?t=qHirm0PFYmavttPvyS4AAg&s=09",
   },
 ];
 
