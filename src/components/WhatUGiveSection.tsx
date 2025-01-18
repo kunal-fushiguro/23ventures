@@ -3,38 +3,45 @@ const data = [
     title: "Give",
     subTitle: "what you",
     keysPoints: [
+      "Efforts",
+      "Sacrifies",
+      "Patience",
+      "Clarity",
+      "Courage",
+      "Time",
       "Focus",
       "Commitment",
       "Adaptability",
       "willingness to do",
-      "6% Stake and a revenue percentage",
+      "6 % Stake",
+      " Revenue percentage",
     ],
   },
   {
     title: "Get",
     subTitle: "what you",
     keysPoints: [
-      "94% equity - Ownership",
-      "Thought-provoking leader - Visionary",
-      "Accountable and motivator - Inspiring",
-      "Learner - Curious",
-      "Figure-out person - Resourceful",
-      "Problem solver - Innovative",
-      "Agile - Adaptable",
-      "Startup founder - Entrepreneur",
-      "To follow your passion - Driven",
-      "Freedom - Autonomy",
-      "Growth - Progress",
-      "Connections - Networking",
-      "Advisors and mentors - Guidance",
-      "Great connect - Collaboration",
+      "Majority Ownership",
+      "Visionary",
+      " Inspiring",
+      "Curious",
+      "Resources",
+      " Innovative",
+      "Adaptable",
+      "Entrepreneur",
+      "Driven",
+      "Autonomy",
+      "Progress",
+      "Networking",
+      "Guidance",
+      "Collaboration",
     ],
   },
 ];
 
 const WhatUGiveSection = () => {
   return (
-    <div className="relative flex min-h-screen w-full flex-col items-center justify-center md:flex-row md:gap-16 p-4">
+    <div className="relative flex min-h-screen w-full flex-col items-start justify-center gap-4 md:flex-row p-4 md:py-60">
       {data.map(({ keysPoints, subTitle, title }, index) => (
         <div
           key={index}

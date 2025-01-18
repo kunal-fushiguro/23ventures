@@ -5,7 +5,7 @@ const NichesStart = () => {
     <>
       <span className="flex justify-center items-center gap-8 flex-col ">
         <h1 className="md:text-7xl text-3xl font-bold text-center">
-          Where we invest
+          Where we <span className="text-color">Invest</span>
           <br />
           and advice
         </h1>

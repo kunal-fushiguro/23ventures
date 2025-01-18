@@ -1,5 +1,6 @@
 import CommitSection from "@/components/CommitSection";
 import FaqSection from "@/components/FaqSection";
+import FellowshipSection from "@/components/FellowshipSection";
 import ProcessEnd from "@/components/ProcessEnd";
 import ProcessGrids from "@/components/ProcessGrids";
 import ProcessPage from "@/components/ProcessPage";
@@ -14,6 +15,7 @@ const page = () => {
       <div className="relative w-full min-h-screen h-auto flex justify-center items-center  py-10 flex-col">
         <ProgressScroll />
       </div>
+      <FellowshipSection />
       <ProcessGrids />
       <WhatUGiveSection />
       <CommitSection />

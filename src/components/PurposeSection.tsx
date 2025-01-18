@@ -1,14 +1,14 @@
 const data = [
   { title: "Community", imgUrl: "/c1.webp" },
-  { title: "Purpose", imgUrl: "/c2.webp" },
-  { title: "Spirit", imgUrl: "/c3.jpeg" },
+  { title: "Purpose", imgUrl: "/a1.webp" },
+  { title: "Spirit", imgUrl: "/a2.webp" },
 ];
 
 const PurposeSection = () => {
   return (
     <div className="flex justify-center items-center py-8 px-4 w-full h-auto flex-col gap-8">
       <span className="md:text-5xl text-2xl font-bold  text-center">
-        Purpose is something <br />
+        <span className="text-color">Purpose</span> is something <br />
         you run with, not run for !!
       </span>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 w-[80%] md:w-[60%]">

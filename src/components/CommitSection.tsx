@@ -12,7 +12,7 @@ const data = [
     url: "/p7.webp",
   },
   {
-    text: "teaching each startup founder a way to do business in today’s era.",
+    text: "Teaching each startup founder a way to do business in today’s era.",
     url: "/p8.webp",
   },
 ];

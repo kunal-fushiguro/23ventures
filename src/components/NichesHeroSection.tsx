@@ -1,14 +1,14 @@
 const TopData = [
-  { text: "Digital products", url: "/n1.webp" },
-  { text: "Digital services", url: "/n2.webp" },
+  { text: "Digital products", url: "/d1.jpeg" },
+  { text: "Digital services", url: "/d2.webp" },
 ];
 
 const belowData = [
-  { text: "SAAS", url: "/n3.webp" },
+  { text: "SAAS", url: "/saas.jpeg" },
   { text: "AI/ML", url: "/n4.webp" },
   { text: "WEB3", url: "/n5.jpeg" },
-  { text: "AGENCY", url: "/n7.jpeg" },
-  { text: "MARKETPLACE", url: "/n7.jpeg" },
+  { text: "AGENCY", url: "/agency.jpeg" },
+  { text: "MARKETPLACE", url: "/market.jpeg" },
 ];
 
 const NichesHeroSection = () => {
@@ -22,6 +22,9 @@ const NichesHeroSection = () => {
           <br />
           for the next decade !
         </h3>
+      </span>
+      <span className="text-color font-bold mx-auto my-4 text-xl italic">
+        Niche
       </span>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-[80%] md:w-[80%]">
         {TopData.map(({ url, text }, index) => {
@@ -49,6 +52,9 @@ const NichesHeroSection = () => {
           );
         })}
       </div>
+      <span className="text-color font-bold mx-auto my-4 text-xl italic">
+        Sub-Niche
+      </span>
       <div className="grid grid-cols-1 sm:grid-cols-5 gap-8 w-[80%] md:w-[80%]">
         {belowData.map(({ url, text }, index) => {
           return (
