@@ -11,11 +11,12 @@ export default function Home() {
       <div className="relative w-full min-h-screen flex justify-center items-center gap-4 p-8 flex-col overflow-hidden">
         {/* Video background */}
         <video
-          src="/home.mp4"
+          src="/home.webM"
           autoPlay
           loop
           muted
           controls={false}
+          playsInline
           className="absolute inset-0 w-full h-full object-cover z-[-1] blur-[1px]"
         ></video>
 

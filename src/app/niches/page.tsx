@@ -7,10 +7,12 @@ const page = () => {
     <>
       <div className="relative w-full min-h-screen flex justify-center items-center gap-4 p-8 flex-col overflow-hidden">
         <video
-          src="/niche.mp4"
+          src="/niche.webM"
           autoPlay
           loop
           muted
+          playsInline
+          controls={false}
           className="absolute inset-0 w-full h-full object-cover z-[-1] blur-[1px]"
         ></video>
 
