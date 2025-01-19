@@ -5,7 +5,7 @@ const ProcessPage = () => {
   return (
     <motion.div className="relative w-full min-h-screen flex justify-center items-center gap-4 p-8 flex-col overflow-hidden">
       <video
-        src="/process.webM"
+        src="/process.mp4"
         autoPlay
         loop
         muted

@@ -13,7 +13,7 @@ export default function Home() {
       <motion.div className="relative w-full min-h-screen flex justify-center items-center gap-4 p-8 flex-col overflow-hidden">
         {/* Video background */}
         <video
-          src="/home.webM"
+          src="/home.mp4"
           autoPlay
           loop
           muted

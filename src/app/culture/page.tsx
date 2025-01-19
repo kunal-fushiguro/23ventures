@@ -11,7 +11,7 @@ const Page = () => {
     <>
       <motion.div className="relative w-full min-h-screen flex justify-center items-center gap-4 p-8 flex-col overflow-hidden mb-8 bgGradient">
         <video
-          src="/v2.webM"
+          src="/v2.mp4"
           autoPlay
           loop
           muted
